@@ -1,4 +1,4 @@
-# VitalSync 🔄
+# VitalSync
 > *Your Life, Synchronized*
 
 <div align="center">
