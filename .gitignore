@@ -1,15 +1,22 @@
-*.iml
+# 🍏 macOS-specific files
+.DS_Store
+
+# 🛠 Gradle-related files and folders
 .gradle
+local.properties
 /local.properties
+
+# 🏗️ Build outputs
+.cxxx
+/build
+/captures
+.externalNativeBuild
+
+# 💻 IDE-specific files (Android Studio, IntelliJ, etc.)
+*.iml
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
