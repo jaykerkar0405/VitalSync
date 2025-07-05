@@ -1,4 +1,4 @@
-package com.example.vitalsync.presentation.theme
+package com.bytewise.vitalsync.presentation.theme
 
 import androidx.compose.runtime.Composable
 import androidx.wear.compose.material.MaterialTheme

@@ -3,7 +3,7 @@
  * most up to date changes to the libraries and their usages.
  */
 
-package com.example.vitalsync.presentation
+package com.bytewise.vitalsync.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -17,14 +17,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.wear.compose.material.MaterialTheme
 import androidx.wear.compose.material.Text
 import androidx.wear.compose.material.TimeText
 import androidx.wear.tooling.preview.devices.WearDevices
-import com.example.vitalsync.R
-import com.example.vitalsync.presentation.theme.VitalSyncTheme
+import com.bytewise.vitalsync.R
+import com.bytewise.vitalsync.presentation.theme.VitalSyncTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
