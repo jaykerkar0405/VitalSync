@@ -35,13 +35,7 @@ fun HomeScreen(modifier: Modifier = Modifier) {
                 textAlign = TextAlign.Center
             )
 
-            // Subtitle
-            Text(
-                text = "Ready to sync your vitals",
-                style = MaterialTheme.typography.body2,
-                color = Color.Gray,
-                textAlign = TextAlign.Center
-            )
+            
 
             Spacer(modifier = Modifier.height(8.dp))
 
