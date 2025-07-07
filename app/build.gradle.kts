@@ -49,10 +49,13 @@ dependencies {
     implementation(libs.compose.material3)
     implementation(libs.compose.foundation)
     implementation(libs.ui.tooling.preview)
+    implementation(libs.coroutines.android)
     implementation(libs.wear.tooling.preview)
     debugImplementation(libs.ui.test.manifest)
     implementation(platform(libs.compose.bom))
     implementation(libs.play.services.wearable)
+    implementation(libs.material.icons.extended)
     androidTestImplementation(libs.ui.test.junit4)
+    implementation(libs.lifecycle.viewmodel.compose)
     androidTestImplementation(platform(libs.compose.bom))
 }
